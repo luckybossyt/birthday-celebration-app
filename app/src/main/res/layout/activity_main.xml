@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="0dp"
+        android:text="Let's Celebrate"
+
+        >
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageb"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ballons"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageh"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+
+        android:layout_centerInParent="true"
+        android:src="@drawable/happybirthday">
+
+    </ImageView>
+
+
+
+</RelativeLayout>
